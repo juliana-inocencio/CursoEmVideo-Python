@@ -1,0 +1,7 @@
+listagem = ('Lápis', 1.75, 'Borracha', 2.00, 'Caderno', 15.90, 'Estojo',25.00)
+print('-'*35)
+print('         LISTAGEM DE PREÇO')
+print('-'*35)
+print(f'{listagem[0]}..........................R$ {listagem[1]}')
+print(f'{listagem[2]}.......................R$ {listagem[3]:.2f}')
+print(f'{listagem[4]}.......................R$ {listagem[5]:.2f}')
